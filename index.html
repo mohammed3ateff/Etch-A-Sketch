@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-A-Sketch</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h2 class="header-name">Each-A-Sketch</h2>
+  <div class="grid-system">
+    <h4 class="grid-header">Design You Sketch</h4>
+    <div class="grid-size">
+    <label for="size-label" id="size-label"> </label>
+    <input id="new-size"  type="range" step="1" min="1"  max="100" value="6" >
+    <button id="submit">submit</button> 
+    </div>
+    </div>
+
+  <div class="container">
+  
+
+    <div class="game"></div>
+    </div>
+  <div class="colors">
+    <button id="rainbow-color">Rinbow
+      <i class="fa-solid fa-paintbrush"></i>
+
+    </button> 
+    <button id="eraser">Eraser
+      <i class="fa-solid fa-eraser" style="color: black;"></i>
+
+    </button> 
+    <button id="clear">Clear
+
+      <i class="fa-solid fa-fill" style="color: black;"></i>
+
+    </button> 
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
